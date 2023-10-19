@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meet's Portfolio</title>
+    <link rel="stylesheet" href="/project1.html">
+    <link rel="stylesheet" href="/project 2.html">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- this is some css to add some style -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 50px;
+            font-size: 25px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .project {
+            margin: 20px;
+            padding: 20px;
+            background-color: #eee;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h2 {
+            margin: 0;
+        }
+
+        .project p {
+            margin: 0;
+        }
+        .skill-bars {
+	list-style: none;
+	margin: 6rem 0 3rem;
+}
+.skill-bars li {
+	height: .6rem;
+	background: #a1a1a1;
+	width: 100%;
+	margin-bottom: 6rem;
+	padding: 0;
+	position: relative;
+}
+.skill-bars li strong {
+	position: absolute;
+	left: 0;
+	top: -3rem;
+	font-family: "poppins-bold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+.skill-bars li .progress {
+	background: #313131;
+	position: relative;
+	height: 100%;
+}
+.skill-bars li .progress span {
+	position: absolute;
+	right: 0;
+	top: -3.6rem;
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: white;
+	font-size: 1.1rem;
+	line-height: 1;
+	background: #313131;
+	padding: .6rem .6rem;
+	border-radius: 3px;
+}
+.skill-bars li .progress span::after {
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	margin-left: -5px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-top: 5px solid #313131;
+	content: "";
+}
+.skill-bars li .percent85  { width: 85%; }
+.skill-bars li .percent90  { width: 90%; }
+.skill-bars li .percent95  { width: 95%; }
+.skill-bars li .percent100 { width: 100%; }
+
+
+         </style>
+</head>
+<!-- this is body tag -->
+<body>
+    <header>
+        <h1>Meet Saini</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#My Resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skill">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- this is about section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Meet Saini<br><br>I used to play badminton,cards and listen lofi music for get some happiness 😇😇.</p>
+        </section>
+        <!-- this is about section -->
+        <section id="My Resume">
+                <h2 class="section-title">My Resume</h2>
+                <div class="container">
+                <b style="color: #3c7792; font-size: 20px;">Education:-</b>
+                <h3>2023 - Present</h3>
+                <p>Bachelors In Computer Applications (4 Yrs)</p>
+                <p>Current pursuing my bachelors degree in computer applications from UIET, MDU, Rohtak.</p>
+                <h3>2020 - 2022</h3>
+                <p>Senior High School </p>
+                <p>Done my senior high school in science stream (PCM) from Sharde Public School(CH.DADRI).</p>
+                <h3>2019-2020</h3>
+                <p>High School </p>
+                <p>Completed my high school from Gitanjali sr sec School(CH.DADRI) in 2020.</p>
+                </div>
+        </section>
+        <!-- this is portfolio section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio">
+               <a href="http://127.0.0.1:5500/project1.html"><h2>Project 1</h2></a>
+                <p>Here is my progam of <strong>"Educational Detail"</strong> which is made with help of HTML. </p>
+            </div>
+
+            <div class="portfolio">
+                <a href="/project 2.html"><h2>Project 2</h2></a>
+                <p>Here is one more progarm of HTML -<strong>"Formation of Resume"</strong></p>
+            </div>
+            <!-- Add more project sections as per need -->
+        </section>
+
+
+        <!-- this is skill section -->
+        <section id="skill">
+            <h2>Skills</h2>
+            <p>
+                <!-- skill bars -->
+                <ul class="skill-bars">
+                <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>HTML5</strong>
+                </li>
+                <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>CSS3</strong>
+                </li>
+        </p>
+            </section>
+              <!-- skill bars end -->
+
+
+        <!-- this is contact section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Mail:meetsaini271005@gmail.com</p>
+            <p>Phone:7027659768</p>
+
+             <!-- this is footer section -->
+            <footer>
+                <nav>
+            <p> 
+                <a href="https://www.instagram.com/meet_saini_17/?next=%2F&hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/meetsaini2005"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100090751194218"><i class="fa-brands fa-facebook"></i></a>
+            </p>
+            </nav>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
